@@ -350,6 +350,7 @@ static const WinMenuKeyDefinition winKeyDefs[] =
 	{ VK_R,       IDM_EDIT_RTL,                                 true,  true,  false, nullptr },
 	{ VK_L,       IDM_EDIT_LTR,                                 true,  true,  false, nullptr },
 	{ VK_NULL,    IDM_VIEW_MONITORING,                          false, false, false, nullptr },
+	{ VK_Y,		  IDM_VIEW_OPENTABMENU,							true,  false, false, nullptr },
 
 	{ VK_NULL,    IDM_FORMAT_ANSI,                              false, false, false, nullptr },
 	{ VK_NULL,    IDM_FORMAT_AS_UTF_8,                          false, false, false, nullptr },

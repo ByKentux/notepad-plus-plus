@@ -350,6 +350,7 @@ private:
 	// For FullScreen/PostIt/DistractionFree features
 	VisibleGUIConf	_beforeSpecialView;
 	void fullScreenToggle();
+	void OpenTabMenu();
 	void postItToggle();
 	void distractionFreeToggle();
 

@@ -1204,6 +1204,12 @@ void Notepad_plus::command(int id)
 		}
 		break;
 
+		case IDM_VIEW_OPENTABMENU:
+		{
+			OpenTabMenu();
+			break;
+		}
+
 		case IDM_EDIT_DELETE:
 			_pEditView->execute(WM_CLEAR);
 			break;
@@ -4247,6 +4253,7 @@ void Notepad_plus::command(int id)
 			case IDM_EDIT_MULTISELECTNEXTMATCHCASEWHOLEWORD:
 			case IDM_EDIT_MULTISELECTUNDO:
 			case IDM_EDIT_MULTISELECTSSKIP:
+			case IDM_VIEW_OPENTABMENU:
 				_macro.push_back(recordedMacroStep(id));
 				break;
 
